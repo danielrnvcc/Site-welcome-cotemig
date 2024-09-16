@@ -1,0 +1,124 @@
+body {display: flex; margin: 0;}
+
+header {
+    background-color: black;
+    width: 13%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    float: left;
+    min-height: 400px;
+    overflow: auto;
+    padding: 30px;
+    text-align: left;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+main { 
+ background-image: url(img_9.jpg.webp);
+ background-size: cover;
+ background-attachment: fixed;
+ width: 87%;
+}
+
+#welcome { height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: brightness(50%);
+}
+#photos { display: flex;
+flex-wrap: wrap;}
+
+.imagens { width: 33%;
+height: 300px;
+border: solid 1px;
+overflow: hidden ;
+
+}
+.imagens:hover{
+    filter: brightness(50%);
+    transition: 0.2s;
+}
+.imagens img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#welcome h1 { font-family: "Oswald", sans-serif;
+font-weight: normal;
+font-size: 64px;
+color: aliceblue;}
+
+.lorem1
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color:#fff;
+}
+#cantinho {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+.nav-link{
+
+    display: block;
+    padding: 4px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-family: "Arial", sans-serif;
+    text-decoration: unset;
+    font-family: "Quicksand", sans-serif;
+}
+svg{
+    fill: white;
+    margin: 5%;
+}
+
+#test{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.pessoa{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+
+
+}
+.pessoa img{
+    width: 100%;
+    border-radius: 100px;
+}
+.lorem2
+{
+    font-family: "Quicksand", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color:#fff;
+
+}
+.btn{
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: #DF0E62;
+    text-align: center;
+    color: #fff;
+    border-color: #DF0E62;
+}
